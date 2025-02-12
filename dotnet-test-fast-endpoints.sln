@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet-test-fast-endpoints", "dotnet-test-fast-endpoints.csproj", "{AFFE9593-BBC4-CA04-1179-1EC260D81789}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFFE9593-BBC4-CA04-1179-1EC260D81789}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFFE9593-BBC4-CA04-1179-1EC260D81789}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFFE9593-BBC4-CA04-1179-1EC260D81789}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFFE9593-BBC4-CA04-1179-1EC260D81789}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {85DC8D51-BABA-4D87-8DB0-3C48A7C7D0DF}
+	EndGlobalSection
+EndGlobal
