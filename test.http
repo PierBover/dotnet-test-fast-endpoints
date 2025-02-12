@@ -18,3 +18,28 @@ content-type: application/json
 {
 	"name": "Appleeeeeeeeeeeeeeeeeeeeeee"
 }
+
+###
+
+POST http://{{host}}/login HTTP/1.1
+content-type: application/json
+
+{
+	"email": "hello@domain.com",
+	"password": "wrongpassword"
+}
+
+###
+
+POST http://{{host}}/login HTTP/1.1
+content-type: application/json
+
+{
+	"email": "hello@domain.com",
+	"password": "secretpassword"
+}
+
+###
+
+POST http://{{host}}/logout HTTP/1.1
+content-type: application/json
